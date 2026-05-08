@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "stealth-browser": {
+      "command": "npx",
+      "args": ["-y", "stealth-agent-browser-mcp"],
+      "env": {
+        "SAB_HEADLESS": "true",
+        "SAB_STEALTH_LEVEL": "patched",
+        "SAB_HUMAN_MOUSE": "true",
+        "SAB_USER_DATA_DIR": "${COMPUTER_USER_PROFILES:-./profiles}/browser-profile",
+        "SAB_DEFAULT_TIMEOUT_MS": "30000"
+      }
+    },
+    "computer-user": {
+      "command": "node",
+      "args": ["${PLUGIN_DIR}/src/index.js"],
+      "env": {
+        "CU_PROFILES_DIR": "${COMPUTER_USER_PROFILES:-./profiles}",
+        "CU_HEADLESS": "true"
+      }
+    }
+  }
+}

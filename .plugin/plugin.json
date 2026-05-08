@@ -1,0 +1,9 @@
+{
+  "name": "computer-user",
+  "version": "0.1.0",
+  "description": "Generic Computer User agent — stealth browser with human-in-the-loop handoff for auth walls. Works with any website; ships with Airtable domain skill.",
+  "author": "openhands",
+  "license": "MIT",
+  "repository": "https://github.com/anthony-firn/computer-user",
+  "keywords": ["browser", "computer-use", "stealth", "airtable", "automation"]
+}

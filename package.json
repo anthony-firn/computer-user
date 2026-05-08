@@ -1,0 +1,17 @@
+{
+  "name": "computer-user",
+  "version": "0.1.0",
+  "description": "Generic Computer User agent — stealth browser with human-in-the-loop handoff for auth walls",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/**/*.test.js",
+    "test:watch": "node --test --watch src/**/*.test.js"
+  },
+  "keywords": ["mcp", "browser", "computer-use", "stealth", "airtable", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "browser_navigate",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[computer-user] Navigated. Consider running cu_detect_auth_wall if page looks like a login/block.'",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
